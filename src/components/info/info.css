@@ -1,0 +1,11 @@
+.information {
+  background-color: none;
+  background: none;
+}
+
+.info {
+  color: green;
+  border: solid 1px black;
+  /* width: 50vw;
+  height: 50vh; */
+}

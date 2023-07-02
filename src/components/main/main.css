@@ -1,0 +1,72 @@
+.main {
+  /* width: 50vw;
+  height: 50vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.main-input {
+  width: 300px;
+  padding: 7px 25px;
+  margin: 0 7px;
+  background: none;
+  outline: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 20px;
+  border: 2px solid #ffffff;
+  font-weight: 700;
+}
+
+input::placeholder {
+  color: white;
+  font-weight: 500;
+  opacity: 0.5; /* Warna teks placeholder merah */
+}
+
+.main-btn {
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.main-weather {
+  display: flex;
+  align-items: center;
+  margin-left: 220px;
+  margin-top: 50px;
+}
+
+.area {
+  color: white;
+  margin-right: 30px;
+}
+
+.area .city {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.area .condi .condition {
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.condi {
+  display: flex;
+  align-items: center;
+}
+
+.temp {
+  display: flex;
+}
+
+.temperature {
+  font-size: 105px;
+  color: white;
+}
+
+span {
+  content: '\2103';
+}
